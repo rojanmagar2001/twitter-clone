@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 type IconHoverEffectProps = {
   children: ReactNode;
-  red: boolean;
+  red?: boolean;
 };
 
 const IconHoverEffect = ({ children, red = false }: IconHoverEffectProps) => {
